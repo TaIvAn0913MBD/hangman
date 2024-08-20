@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Copperplate, fantasy;
+}
+.word {
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+#image {
+  background-image: url(./design-play-again-message-260nw-1467817487.webp);
+  background-position: center;
+
+  height: 170px;
+  width: 225px;
+  border-radius: 6px;
+  transition: width 1s, height 1s, transform 1s;
+}
+#image:hover {
+  background-image: url(./design-play-again-message-260nw-1467817487.webp);
+  background-position: center;
+
+  height: 220px;
+  width: 300px;
+  border-radius: 6px;
+  transform: rotate(360deg);
+}
+body {
+  background-color: #c1d72e;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: start;
+  margin-top: 30px;
+  align-items: center;
+}
+.box {
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: #c1d72e;
+  border-radius: 6px;
+  border: 1px white solid;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box1 {
+  width: 50px;
+  height: 50px;
+  color: white;
+  background-color: #c1d72e;
+  border-radius: 6px;
+  border: 1px white solid;
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box:hover {
+  color: #c1d72e;
+  background-color: white;
+}
+#gadna {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  top: 350px;
+}
+#result {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 450px;
+}
+
+#am {
+  color: white;
+  background-color: #c1d72e;
+  border-radius: 6px;
+  display: flex;
+  gap: 10px;
+  top: 520px;
+  height: 50px;
+  font-size: 40px;
+  padding: 5px;
+  position: absolute;
+}
+.zurh {
+  background-image: url(./clip.png);
+  background-size: cover;
+  background-position: center;
+  height: 50px;
+  width: 50px;
+}
+.stick {
+  height: 450px;
+  width: 750px;
+  background-color: aliceblue;
+  border: 2px black solid;
+  border-radius: 6px;
+  position: absolute;
+  top: 690px;
+}
+#hint {
+  background-image: url(./notRem.jpeg);
+  height: 170px;
+  width: 150px;
+  transition: width 1s, height 1s, transform 1s;
+
+  border-radius: 6px;
+  background-size: contain;
+}
+#hint:hover {
+  height: 220px;
+  width: 195px;
+  transform: rotate(360deg);
+}
+#zaii {
+  top: 590px;
+  position: absolute;
+  font-size: 50px;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  border: white 2px solid;
+}
